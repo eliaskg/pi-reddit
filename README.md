@@ -53,6 +53,34 @@ Environment variables override the file credentials:
 - `REDDIT_CLIENT_ID`
 - `REDDIT_CLIENT_SECRET`
 
+## Examples
+
+Search:
+
+```txt
+Search reddit for the best way to run llama.cpp on Linux.
+```
+
+```txt
+Search reddit for the most capable local LLMs, last week only.
+```
+
+Top posts:
+
+```txt
+Show the top posts in r/programming this month.
+```
+
+```txt
+What were the most discussed posts in r/programming last year?
+```
+
+Compare opinions:
+
+```txt
+Search r/LocalLLaMA for reactions to new model releases. Summarize pros and cons from the comments.
+```
+
 ## Rate limits
 
 The client keeps at least one second between requests. On HTTP 429 it waits for the `Retry-After` value once, then errors. Access tokens are cached and refreshed once on HTTP 401.

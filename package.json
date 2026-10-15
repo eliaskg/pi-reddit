@@ -1,0 +1,31 @@
+{
+  "name": "pi-reddit",
+  "version": "0.1.0",
+  "description": "Read-only Reddit access for pi: Search, read posts, read comments",
+  "type": "module",
+  "main": "index.ts",
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "keywords": [
+    "pi-package",
+    "reddit",
+    "pi"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliaskg/pi-reddit.git"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.ts"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  }
+}

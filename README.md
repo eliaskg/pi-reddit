@@ -1,5 +1,7 @@
 # pi-reddit
 
+[![npm version](https://img.shields.io/npm/v/pi-reddit.svg)](https://www.npmjs.com/package/pi-reddit) [![Download Stats](https://img.shields.io/npm/dm/pi-reddit.svg)](https://www.npmjs.com/package/pi-reddit) [![license](https://img.shields.io/npm/l/pi-reddit.svg)](LICENSE)
+
 Read-only Reddit tools for Pi. The extension exposes three tools:
 
 - `reddit-search`: keyword search across Reddit or inside subreddits.

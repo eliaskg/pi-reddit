@@ -1,11 +1,13 @@
 {
   "name": "pi-reddit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read-only Reddit access for pi: Search, read posts, read comments",
   "type": "module",
   "main": "index.ts",
   "pi": {
-    "extensions": ["./index.ts"]
+    "extensions": [
+      "./index.ts"
+    ]
   },
   "keywords": [
     "pi-package",
